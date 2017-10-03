@@ -19,7 +19,7 @@ mkdir -p /srv/calthorpe/
 
 # clone urbanfootprint repos
 cd /srv/calthorpe/
-git clone https://github.com/CalthorpeAnalytics/urbanfootprint.git urbanfootprint
+git clone https://github.com/CA-CODE-Works/urbanfootprint.git urbanfootprint
 cd /srv/calthorpe/urbanfootprint/
 git submodule init
 git submodule update
@@ -51,7 +51,7 @@ cp /srv/calthorpe/urbanfootprint/.env.sample /srv/calthorpe/urbanfootprint/.env
 chown calthorpe:calthorpe /srv/calthorpe/urbanfootprint/.env
 
 # retrieve sample web database
-wget -O /srv/datadump/urbanfootprint-sacog-web-db.sql.gz https://s3-us-west-2.amazonaws.com/uf-provisioning/urbanfootprint-sacog-web-db.sql.gz
+wget -O /srv/datadump/urbanfootprint-sacog-web-db.sql.gz http://maps.gis.ca.gov/urbanfootprint/urbanfootprint-sacog-web-db.sql.gz
 gunzip -f /srv/datadump/urbanfootprint-sacog-web-db.sql.gz
 
 # import sample web database
