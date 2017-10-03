@@ -38,7 +38,7 @@ virtual machine.
 
 On Windows, open up "Git Bash" which should now be available in your Start Menu. On Mac, open up the Terminal app. You should now have a command line prompt. In the terminal, run:
 
-    curl https://raw.githubusercontent.com/CalthorpeAnalytics/urbanfootprint/master/get-uf.sh | bash
+    curl https://raw.githubusercontent.com/CA-CODE-Works/urbanfootprint/master/get-uf.sh | bash
 
 A local UrbanFootprint instance is now accessible via  [http://localhost:3333/footprint/](http://localhost:3333/footprint/) in your browser. The default username is "admin@urbanfootprint.net" and the default password is "admin@uf".
 
