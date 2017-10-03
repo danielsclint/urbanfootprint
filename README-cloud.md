@@ -15,7 +15,7 @@ We recommend at least 2 CPUs and 8GB of RAM. On AWS, select t2.large or larger [
 
 We provide a "quickstart" script that handles installing all dependencies and pre-loads a sample data set.
 
-	wget https://raw.githubusercontent.com/CalthorpeAnalytics/urbanfootprint/master/quickstart.sh
+	wget https://raw.githubusercontent.com/CA-CODE-Works/urbanfootprint/master/quickstart.sh
 	chmod +x quickstart.sh
 	sudo ./quickstart.sh
 	
